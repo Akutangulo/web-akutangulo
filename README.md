@@ -1,3 +1,5 @@
+# Página web de Akutangulo.com
+---
 ## Div Mágico ✨
 
 Un contenedor HTML con un diseño totalmente adaptable y responsivo, ideal para resaltar textos de manera elegante en cualquier tipo de pantalla.
@@ -16,6 +18,8 @@ Un contenedor HTML con un diseño totalmente adaptable y responsivo, ideal para 
 
 ### 🛠️ Personalización
 Puedes modificar los **colores**, los **bordes** y el **espaciado** para que se adapte mejor a tu diseño.
+
+---
 
 ## Footer Akutangulo 
 Footer de Akutangulo.com para mostrar en las webs
