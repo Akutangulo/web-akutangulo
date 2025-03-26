@@ -14,7 +14,8 @@ Un contenedor HTML con un diseño totalmente adaptable y responsivo, ideal para 
 1. **Añade el HTML** en tu página
 2. **Incluye los estilos CSS** en tu hoja de estilos
 
-
-
 # Footer Akutangulo 
 Footer de Akutangulo.com para mostrar en las webs
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT, lo que significa que puedes usarlo libremente en tus proyectos.
