@@ -14,6 +14,9 @@ Un contenedor HTML con un diseño totalmente adaptable y responsivo, ideal para 
 1. **Añade el HTML** en tu página
 2. **Incluye los estilos CSS** en tu hoja de estilos
 
+## 🛠️ Personalización
+Puedes modificar los **colores**, los **bordes** y el **espaciado** para que se adapte mejor a tu diseño.
+
 # Footer Akutangulo 
 Footer de Akutangulo.com para mostrar en las webs
 
