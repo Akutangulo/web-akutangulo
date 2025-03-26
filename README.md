@@ -24,5 +24,7 @@ Puedes modificar los **colores**, los **bordes** y el **espaciado** para que se 
 ## Footer Akutangulo 
 Footer de Akutangulo.com para mostrar en las webs
 
+---
+
 📄 Licencia
 Este proyecto está bajo la licencia MIT, lo que significa que puedes usarlo libremente en tus proyectos.
