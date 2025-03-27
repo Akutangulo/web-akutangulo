@@ -5,3 +5,14 @@
  *
  * Diseñado y creado con todo el amor del mundo por navarr0 de Akutangulo.com.
  */
+
+/*************************************************
+ * Estilos generales de la página Akutangulo.com *
+ *************************************************/
+@font-face {
+    font-family: 'bauhouse_akutangulo';
+        src: url("fonts/bauhouse_akutangulo.woff2") format("woff2"),
+        url("fonts/bauhouse_akutangulo.woff") format("woff"),
+        url("fonts/bauhouse_akutangulo.ttf") format("truetype"),
+        url("fonts/bauhouse_akutangulo.eot?#iefix") format("embedded-opentype");
+    }
