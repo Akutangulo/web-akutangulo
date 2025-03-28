@@ -16,3 +16,30 @@
         url("fonts/bauhouse_akutangulo.ttf") format("truetype"),
         url("fonts/bauhouse_akutangulo.eot?#iefix") format("embedded-opentype");
     }
+
+:root {
+  --color-akutangulo: #9300D3; /* Color primario */
+  --color-fondo: #1E1E1E; /* Negro */
+  --color-fondo-secundario: #2E2E2E; /* Gris oscuro */
+  --color-texto: #fafafa; /* Blanco */
+  --color-texto-secundario: #CCCCCC; /* Gris claro */
+  --color-footer-akutangulo: #111111; 
+  --color-fondo-transparente: rgba(30, 30, 30, 0.8); /* Color de fondo semi-transparente */
+  
+  --color-facebook: #3b5999; 
+  --color-twitter: #55acee;
+  --color-linkedin: #0077b5;
+  --color-telegram: #0088cc; /* <i class="fab fa-telegram-plane" aria-hidden="true"></i> */
+  --color-whatsapp: #25d366; /* <i class="fab fa-whatsapp" aria-hidden="true"></i> */
+  /* @ <i class="fas fa-at" aria-hidden="true"></i> */
+  --color-github: #000000; 
+}
+
+[data-theme="light"] {
+  --color-fondo: #fafbfd; /* Blanco */
+  --color-fondo-secundario: #CCCCCC; /* Gris claro */
+  --color-texto: #191919; /* Negro */
+  --color-texto-secundario: #3f3f3f; /* Gris oscuro */
+  --color-footer-akutangulo: #b8b8b8; 
+  --color-fondo-transparente: rgba(255, 255, 255, 0.8); /* Color de fondo semi-transparente */
+}
