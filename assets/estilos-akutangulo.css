@@ -43,3 +43,10 @@
   --color-footer-akutangulo: #b8b8b8; 
   --color-fondo-transparente: rgba(255, 255, 255, 0.8); /* Color de fondo semi-transparente */
 }
+
+/* Reset básico */
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
