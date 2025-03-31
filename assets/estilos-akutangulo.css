@@ -9,6 +9,8 @@
 /*************************************************
  * Estilos generales de la página Akutangulo.com *
  *************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
     font-family: 'bauhouse_akutangulo';
         src: url("fonts/bauhouse_akutangulo.woff2") format("woff2"),
