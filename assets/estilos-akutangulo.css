@@ -60,3 +60,8 @@ body {
   font-optical-sizing: auto;
   font-variation-settings: "wdth" 100;
 }
+main {
+    max-width: 1200px; /* Limita el ancho máximo del contenido principal */
+    margin: 0 auto; /* Centra horizontalmente */
+    font-weight: 100;
+    }
