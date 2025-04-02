@@ -19,32 +19,43 @@
         url("fonts/bauhouse_akutangulo.eot?#iefix") format("embedded-opentype");
     }
 
-:root {
-  --color-akutangulo: #9300D3; /* Color primario */
-  --color-fondo: #1E1E1E; /* Negro */
-  --color-fondo-secundario: #2E2E2E; /* Gris oscuro */
-  --color-texto: #fafafa; /* Blanco */
-  --color-texto-secundario: #CCCCCC; /* Gris claro */
-  --color-footer-akutangulo: #111111; 
-  --color-fondo-transparente: rgba(30, 30, 30, 0.8); /* Color de fondo semi-transparente */
-  
-  --color-facebook: #3b5999; 
-  --color-twitter: #55acee;
-  --color-linkedin: #0077b5;
-  --color-telegram: #0088cc; /* <i class="fab fa-telegram-plane" aria-hidden="true"></i> */
-  --color-whatsapp: #25d366; /* <i class="fab fa-whatsapp" aria-hidden="true"></i> */
-  /* @ <i class="fas fa-at" aria-hidden="true"></i> */
-  --color-github: #000000; 
-}
-
-[data-theme="light"] {
-  --color-fondo: #fafbfd; /* Blanco */
-  --color-fondo-secundario: #CCCCCC; /* Gris claro */
-  --color-texto: #191919; /* Negro */
-  --color-texto-secundario: #3f3f3f; /* Gris oscuro */
-  --color-footer-akutangulo: #b8b8b8; 
-  --color-fondo-transparente: rgba(255, 255, 255, 0.8); /* Color de fondo semi-transparente */
-}
+    :root {
+      /* Colores de marca */
+      --color-akutangulo: #9300D3; /* Color principal de la marca rgba(147, 0, 211, 0.99); */
+      --color-akutangulo-claro: #B54ADE; /* Variante clara para acentos o efectos */
+      --color-akutangulo-oscuro: #6A00A0; /* Variante oscura para hover o contraste */      
+    
+      /* Tema Oscuro (por defecto) */
+      --color-fondo: #1A1A20; /* Fondo principal, oscuro y sofisticado */
+      --color-fondo-secundario: #2D2D35; /* Fondo para secciones o tarjetas */
+      --color-texto: #F8F8FC; /* Texto principal, blanco suavizado */
+      --color-texto-secundario: #C8C8D2; /* Texto secundario o subtítulos */
+      --color-fondo-transparente: rgba(26, 26, 32, 0.85); /* Para overlays o sombras */
+      /* Colores de acento */
+      --color-cta: #00C2FF; /* Acento principal para botones Llamada a la Acción PULSE*/
+      --color-enlaces: #FF5E8F; /* Acento secundario para enlaces */
+      /* Colores para redes sociales */
+      --color-facebook: #3b5999;
+      --color-twitter: #55acee;
+      --color-linkedin: #0077b5;
+      --color-telegram: #0088cc; /* <i class="fab fa-telegram-plane" aria-hidden="true"></i> */
+      --color-whatsapp: #25d366; /* <i class="fab fa-whatsapp" aria-hidden="true"></i> */
+      /* @ <i class="fas fa-at" aria-hidden="true"></i> */
+      --color-github: #333333;
+      /* Variables no relacionadas con los colores */
+      --font-weight-contenido: 100; /* Peso de fuente para el contenido */
+    }
+    
+    [data-theme="light"] {
+      /* Tema Claro */
+      --color-fondo: #F5F7FF; /* Fondo claro con toque moderno */
+      --color-fondo-secundario: #E8EBFA; /* Fondo secundario sutil */
+      --color-texto: #252538; /* Texto principal oscuro */
+      --color-texto-secundario: #5D5D72; /* Texto secundario más claro */
+      --color-fondo-transparente: rgba(245, 247, 255, 0.9); /* Para overlays claros */
+      /* Variables no relacionadas con los colores */
+      --font-weight-contenido: 900; /* Peso de fuente para el contenido */
+    }
 
 /* Reset básico */
 *, *::before, *::after {
