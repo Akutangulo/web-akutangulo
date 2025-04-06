@@ -6,3 +6,14 @@
  * Diseñado y creado con todo el amor del mundo por navarr0 de Akutangulo.com.
  */
 
+/**************************************************
+ * Estilos para el HEADER del logo Akutangulo.com *
+ **************************************************/
+
+  .aku-container-logo {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 35vh;
+    text-align: center; /* Centra el contenido */
+  }
