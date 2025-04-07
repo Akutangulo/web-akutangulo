@@ -46,3 +46,9 @@
     50% { transform: rotate3d(-1, -1, 0, 40deg); }
     75% { transform: rotate3d(1, -1, 0, 40deg); }
   }
+  @keyframes glow {
+    0%, 100% { text-shadow: 0 0 30px DeepPink; }
+    25% { text-shadow: 0 0 30px Lime; }
+    50% { text-shadow: 0 0 30px Magenta; }
+    75% { text-shadow: 0 0 30px MediumSlateBlue; }
+  }
