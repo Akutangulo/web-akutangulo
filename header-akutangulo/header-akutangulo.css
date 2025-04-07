@@ -17,3 +17,19 @@
     height: 35vh;
     text-align: center; /* Centra el contenido */
   }
+  /* Estilos para los H1 con la clase logo-akutangulo-portada */
+  .logo-akutangulo-portada {
+    display: block;
+    width: 100%; /* Ajusta al contenedor */
+    padding: 5px;
+    line-height: 1.5;
+    font-family: 'bauhouse_akutangulo'; /* Separamos font-family */
+    font-size: clamp(2rem, 10vw, 10rem); /* Tamaño responsivo */
+    font-weight: normal; /* Ajusta el grosor de la fuente */
+    text-transform: none;
+    position: absolute;
+    color: var(--color-akutangulo);
+    animation: glow 10s ease-in-out infinite;
+    margin: 0; /* Elimina márgenes por defecto */
+    text-align: center;
+  }
