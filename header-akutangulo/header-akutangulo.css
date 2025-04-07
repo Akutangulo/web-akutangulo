@@ -33,3 +33,10 @@
     margin: 0; /* Elimina márgenes por defecto */
     text-align: center;
   }
+  /* Estilos para el contenedor que mantiene la animación wobble */
+  #aku {
+    animation: wobble 5s ease-in-out infinite;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+    position: relative;
+  }
