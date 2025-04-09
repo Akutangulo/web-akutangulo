@@ -60,3 +60,12 @@
   .aku-container-logo h1:nth-child(6) { transform: translateZ(25px); }
   .aku-container-logo h1:nth-child(7) { transform: translateZ(30px); }
   .aku-container-logo h1:nth-child(8) { transform: translateZ(35px); }
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .logo-akutangulo-portada {
+      font-size: clamp(4rem, 10vw, 10rem); /* Reduce tamaño en móviles */
+    }
+    .aku-container-logo {
+      height: 15vh;
+    }
+  }
