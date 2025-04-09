@@ -52,3 +52,11 @@
     50% { text-shadow: 0 0 30px Magenta; }
     75% { text-shadow: 0 0 30px MediumSlateBlue; }
   }
+/* Ajustamos las capas 3D a cada H1 dentro del contenedor */
+  .aku-container-logo h1:nth-child(2) { transform: translateZ(5px); }
+  .aku-container-logo h1:nth-child(3) { transform: translateZ(10px); }
+  .aku-container-logo h1:nth-child(4) { transform: translateZ(15px); }
+  .aku-container-logo h1:nth-child(5) { transform: translateZ(20px); }
+  .aku-container-logo h1:nth-child(6) { transform: translateZ(25px); }
+  .aku-container-logo h1:nth-child(7) { transform: translateZ(30px); }
+  .aku-container-logo h1:nth-child(8) { transform: translateZ(35px); }
