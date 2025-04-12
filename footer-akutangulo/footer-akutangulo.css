@@ -8,3 +8,6 @@
 /*****************************************************************
  * Estilo del FOOTER con la animacion del logo de Akutangulo.com *
  *****************************************************************/
+ :root {
+   --color-footer-akutangulo: #111111; 
+ }
