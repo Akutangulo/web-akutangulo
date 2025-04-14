@@ -1,12 +1,12 @@
 # Página web de Akutangulo.com
 ---
-# **Div Mágico: Componente de Layout Responsivo Avanzado**
+## **Div Mágico: Componente de Layout Responsivo Avanzado**
 
-## Descripción General
+### Descripción General
 
 El "Div Mágico" es un componente HTML/CSS altamente reutilizable diseñado para crear secciones de contenido visualmente atractivas y perfectamente adaptables. Su principal objetivo es presentar bloques de información compuestos por texto y un elemento multimedia (imagen, iframe o figura/diagrama) de forma dinámica y responsiva, resolviendo un desafío común: **lograr que la columna multimedia iguale automáticamente la altura de la columna de texto en pantallas grandes, sin importar el contenido.**
 
-## Características Clave y Peculiaridades
+### Características Clave y Peculiaridades
 
 Este componente destaca por las siguientes funcionalidades y técnicas:
 
