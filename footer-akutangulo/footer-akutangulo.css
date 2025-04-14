@@ -11,3 +11,8 @@
  :root {
    --color-footer-akutangulo: #111111; 
  }
+ .akutangulo-diseño-web-seo {
+    font-family: 'bauhouse_akutangulo';
+    color: #9400D3;
+    animation: glow 10s ease-in-out infinite;
+  }
