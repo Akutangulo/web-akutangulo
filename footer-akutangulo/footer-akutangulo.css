@@ -16,3 +16,10 @@
     color: #9400D3;
     animation: glow 10s ease-in-out infinite;
   }
+
+  .footer-akutangulo {
+    text-align: center;
+    background-color: var(--color-footer-akutangulo); /* #1E1E1E*/
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
