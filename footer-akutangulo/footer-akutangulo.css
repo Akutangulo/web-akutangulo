@@ -41,3 +41,12 @@
   .copyright-akutangulo a:hover {
     font-size: 1.3rem;
   }
+  /* Estilo base para el trazado del logo Akutangulo en SVG */
+  .animacion-logo-svg-akutangulo {
+    fill: none;
+    stroke: #9300D3;
+    stroke-width: 5;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: draw-akutangulo 5s ease-in-out forwards, fillLogo-akutangulo 2s ease-in-out forwards 3s, glow 10s ease-in-out infinite;
+  }
