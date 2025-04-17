@@ -50,3 +50,12 @@
     stroke-dashoffset: 3000;
     animation: draw-akutangulo 5s ease-in-out forwards, fillLogo-akutangulo 2s ease-in-out forwards 3s, glow 10s ease-in-out infinite;
   }
+  /* Animación para dibujar el trazado del logo */
+  @keyframes draw-akutangulo {
+    0% {
+      stroke-dashoffset: 3000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
