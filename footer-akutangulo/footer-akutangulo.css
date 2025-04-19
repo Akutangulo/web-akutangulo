@@ -60,3 +60,15 @@
       stroke-dashoffset: 0;
     }
   }
+  /* Animación para rellenar el logo con color */
+  @keyframes fillLogo-akutangulo {
+    0% {
+      fill: transparent;
+    }
+    50% {
+      fill: #fbf8fb;
+    }
+    100% {
+      fill: #9300D3;
+    }
+  }
