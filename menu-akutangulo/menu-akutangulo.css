@@ -8,3 +8,9 @@
 /****************************************************
  * Estilos para el MENU principal de Akutangulo.com *
  ****************************************************/
+ :root {
+    --color-menu-akutangulo-bg-nav: rgba(0, 0, 0, 0.95);
+    --color-menu-akutangulo-bg-submenu: rgba(0, 0, 0, 1);
+    --color-menu-akutangulo-text: #fff;
+    --padding-nav: 15px 20px;
+  }
