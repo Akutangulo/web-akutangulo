@@ -29,3 +29,9 @@
     z-index: 1000;
     font-weight: 600;
   }
+  .logo-menu-akutangulo {
+    font-size: 3em;
+    font-family: 'bauhouse_akutangulo';
+    color: var(--color-akutangulo);
+    padding: 5px 20px;
+  }
