@@ -14,3 +14,18 @@
     --color-menu-akutangulo-text: #fff;
     --padding-nav: 15px 20px;
   }
+  /* Estilos del menú */
+  nav#akutangulo-nav {
+    background: var(--color-menu-akutangulo-bg-nav);
+    color: var(--color-menu-akutangulo-text);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky; /* relative / sticky / fixed / absolute / static */
+    top: 0;
+    min-height: 70px;
+    z-index: 1000;
+    font-weight: 600;
+  }
