@@ -36,3 +36,9 @@
     color: var(--color-akutangulo);
     padding: 5px 20px;
   }
+  /* Menú principal */
+  .items-menu-principal {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
