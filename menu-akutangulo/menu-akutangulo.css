@@ -43,3 +43,12 @@
     display: flex;
     align-items: center;
   }
+  .items-menu-principal a,
+  .items-menu-principal .enlace-submenu-principal {
+    display: block;
+    padding: var(--padding-nav);
+    text-decoration: none;
+    color: var(--color-menu-akutangulo-text);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
