@@ -52,6 +52,7 @@
     cursor: pointer;
     transition: background 0.3s ease;
   }
+
   /* Estilos base y hover aplicados al contenedor padre */
   .submenu-principal {
     position: relative;
