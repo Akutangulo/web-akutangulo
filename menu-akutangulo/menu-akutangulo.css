@@ -52,3 +52,10 @@
     cursor: pointer;
     transition: background 0.3s ease;
   }
+  /* Estilos base y hover aplicados al contenedor padre */
+  .submenu-principal {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+  }
