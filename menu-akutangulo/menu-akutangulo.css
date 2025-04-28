@@ -67,3 +67,7 @@
     padding: 0.1rem;
     margin: 0.5rem;
   }
+  .submenu-principal .enlace-servicios,
+  .submenu-principal .enlace-submenu-principal {
+    background: none; /* Evita que los elementos internos tengan su propio fondo en hover */
+  }
