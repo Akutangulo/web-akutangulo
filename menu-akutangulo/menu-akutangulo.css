@@ -60,3 +60,10 @@
     align-items: center;
     padding: 0.4rem;
   }
+  .submenu-principal:hover {
+    background: var(--color-akutangulo);
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: 0.1rem;
+    margin: 0.5rem;
+  }
