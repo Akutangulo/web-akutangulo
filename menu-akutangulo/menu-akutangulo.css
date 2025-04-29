@@ -71,3 +71,9 @@
   .submenu-principal .enlace-submenu-principal {
     background: none; /* Evita que los elementos internos tengan su propio fondo en hover */
   }
+  .submenu-principal .enlace-servicios {
+    padding-right: 0;
+  }
+  .submenu-principal .enlace-submenu-principal {
+    padding-left: 5px;
+  }
