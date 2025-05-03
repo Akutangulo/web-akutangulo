@@ -96,3 +96,6 @@
   .items-submenu-principal a {
     padding: 10px 20px;
   }
+  .submenu-principal:hover .items-submenu-principal {
+    display: block;
+  }
