@@ -99,6 +99,7 @@
   .submenu-principal:hover .items-submenu-principal {
     display: block;
   }
+
   /* Hamburguesa y toggle (ocultos por defecto) */
   #toggle-menu-principal,
   .toggle-submenu-principal {
