@@ -105,3 +105,8 @@
   .toggle-submenu-principal {
     display: none;
   }
+  .icono-hamburguesa {
+    display: none;
+    cursor: pointer;
+    padding: var(--padding-nav);
+  }
