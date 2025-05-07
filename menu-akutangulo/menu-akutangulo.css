@@ -138,3 +138,7 @@
     #toggle-menu-principal:checked ~ .items-menu-principal {
       display: flex;
     }
+    .submenu-principal {
+      width: 100%;
+      flex-wrap: wrap;
+    }
