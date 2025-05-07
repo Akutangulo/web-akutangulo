@@ -118,5 +118,6 @@
     background: var(--color-menu-akutangulo-text);
     transition: all 0.3s ease;
   }
+
   /* Estilos móviles */
   @media (max-width: 768px) {
