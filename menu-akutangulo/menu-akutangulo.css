@@ -135,3 +135,6 @@
       display: none;
       align-items: flex-start;
     }
+    #toggle-menu-principal:checked ~ .items-menu-principal {
+      display: flex;
+    }
