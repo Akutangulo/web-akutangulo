@@ -121,3 +121,7 @@
 
   /* Estilos móviles */
   @media (max-width: 768px) {
+  
+    nav#akutangulo-nav {
+    position: static; /* relative / sticky / fixed / absolute / static */
+  }
