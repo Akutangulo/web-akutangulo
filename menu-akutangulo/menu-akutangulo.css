@@ -125,3 +125,7 @@
     nav#akutangulo-nav {
     position: static; /* relative / sticky / fixed / absolute / static */
   }
+  
+    .icono-hamburguesa {
+      display: block;
+    }
