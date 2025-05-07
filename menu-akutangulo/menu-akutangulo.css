@@ -142,3 +142,6 @@
       width: 100%;
       flex-wrap: wrap;
     }
+    .submenu-principal .enlace-servicios {
+      flex-grow: 1;
+    }
