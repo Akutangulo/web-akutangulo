@@ -145,3 +145,11 @@
     .submenu-principal .enlace-servicios {
       flex-grow: 1;
     }
+    .items-submenu-principal {
+      position: static;
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease; 
+      padding: 0;
+    }
