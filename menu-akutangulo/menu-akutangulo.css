@@ -153,3 +153,6 @@
       transition: max-height 0.3s ease; 
       padding: 0;
     }
+    .toggle-submenu-principal:checked ~ .items-submenu-principal {
+      max-height: 500px;
+    }
