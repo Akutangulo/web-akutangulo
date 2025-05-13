@@ -163,3 +163,7 @@
     #toggle-menu-principal:checked + .icono-hamburguesa span:nth-child(2) {
       opacity: 0;
     }
+    #toggle-menu-principal:checked + .icono-hamburguesa span:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
