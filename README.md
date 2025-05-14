@@ -1,5 +1,33 @@
 # Página web de Akutangulo.com
 ---
+## Akutangulo Header
+
+Este proyecto contiene el código para el encabezado (header) de la página web de **Akutangulo**, diseñado con un efecto visual animado en 3D para el logotipo. Incluye animaciones de "wobble" y "glow" para un impacto visual dinámico y atractivo.
+
+### Descripción
+
+El código crea un encabezado centrado con el texto "Akutangulo" repetido en múltiples capas `<h1>`, cada una con un desplazamiento en el eje Z para simular un efecto 3D. Las animaciones incluyen:
+
+- **Wobble**: Una rotación 3D suave que da un efecto de balanceo continuo.
+- **Glow**: Un cambio de color en la sombra del texto para un efecto de brillo dinámico.
+
+El diseño es responsivo, ajustándose a diferentes tamaños de pantalla mediante `clamp` y media queries.
+
+### Características
+
+- **Animaciones CSS**: Efectos `wobble` y `glow` para un logotipo dinámico.
+- **Diseño 3D**: Uso de `transform: translateZ` para crear capas superpuestas.
+- **Responsividad**: Ajustes para pantallas pequeñas (≤768px).
+- **Fuentes personalizadas**: Utiliza la fuente `bauhouse_akutangulo`.
+- **Colores dinámicos**: Uso de la variable CSS `--color-akutangulo` para el color del texto.
+
+### Requisitos
+
+- Navegador web moderno compatible con animaciones CSS y transformaciones 3D.
+- Archivos externos:
+- Fuente personalizada `bauhouse_akutangulo`.
+
+---
 ## **Div Mágico: Componente de Layout Responsivo Avanzado**
 
 ### Descripción General
