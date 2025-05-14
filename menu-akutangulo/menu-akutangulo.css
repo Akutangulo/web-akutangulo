@@ -156,6 +156,7 @@
     .toggle-submenu-principal:checked ~ .items-submenu-principal {
       max-height: 500px;
     }
+   
     /* Animación hamburguesa */
     #toggle-menu-principal:checked + .icono-hamburguesa span:nth-child(1) {
       transform: translateY(8px) rotate(45deg);
