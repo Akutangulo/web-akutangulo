@@ -72,8 +72,22 @@ Este componente soluciona de forma elegante el problema de las columnas de altur
 
 ---
 
-## Footer Akutangulo 
-Footer de Akutangulo.com para mostrar en las webs
+## Akutangulo Footer
+
+Este proyecto contiene el código para el pie de página (footer) de la página web de **Akutangulo**, diseñado con una animación SVG para el logotipo y un estilo moderno y minimalista. El footer incluye un logo animado y un texto de copyright dinámico.
+
+### Descripción
+
+El código crea un pie de página centrado con el logotipo de **Akutangulo** en formato SVG, animado con un efecto de trazado (`draw`) y relleno (`fill`). También incluye un texto de copyright con enlaces a la página oficial y un año dinámico actualizado mediante JavaScript. El diseño es limpio, con un fondo oscuro y transiciones suaves para los enlaces.
+
+### Características
+
+- **Animación SVG**: Efectos de trazado (`draw-akutangulo`) y relleno (`fillLogo-akutangulo`) para el logo, además de un brillo dinámico (`glow`).
+- **Texto dinámico**: Año de copyright actualizado automáticamente con JavaScript.
+- **Responsividad**: Diseño centrado y adaptable a diferentes tamaños de pantalla.
+- **Interactividad**: Enlaces con efecto de hover que aumenta el tamaño del texto.
+- **Fuentes personalizadas**: Utiliza la fuente `bauhouse_akutangulo` (debe estar definida externamente).
+- **Colores personalizables**: Uso de variables CSS como `--color-footer-akutangulo`.
 
 ---
 
