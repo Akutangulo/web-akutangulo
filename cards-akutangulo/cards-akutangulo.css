@@ -26,3 +26,8 @@
       margin: 0 auto;
       max-width: 80rem;
     }
+.grid-clientes-akutangulo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
