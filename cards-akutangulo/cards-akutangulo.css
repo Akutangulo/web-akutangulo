@@ -31,3 +31,10 @@
       flex-wrap: wrap;
       justify-content: center;
     }
+    /* Estilos base para tarjetas */
+    .tarjeta {
+      margin: 1rem;
+      cursor: pointer;
+      position: relative;
+      transform-style: preserve-3d;
+      perspective: 1000px;
