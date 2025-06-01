@@ -38,3 +38,9 @@
       position: relative;
       transform-style: preserve-3d;
       perspective: 1000px;
+        
+      --shown: 0; /* Valor inicial para la animación */
+      opacity: var(--shown); /* Empezar invisibles */
+      transition: all 0.7s var(--ease-entradilla), opacity 0.5s ease;
+      transform: scale(calc(0.5 + (var(--shown, 0) * 0.5))) rotateY(calc((var(--shown, 0) - 1) * 90deg));
+    }
