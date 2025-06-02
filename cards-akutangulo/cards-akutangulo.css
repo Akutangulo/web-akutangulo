@@ -61,6 +61,7 @@
       width: calc(50% - 2rem);
       height: 350px;
     }
+
     /* Caras de la tarjeta */
     .tarjeta-front,
     .tarjeta-back {
