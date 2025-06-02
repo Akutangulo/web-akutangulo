@@ -63,7 +63,7 @@ body {
       height: 350px;
     }
 
-    /* Caras de la tarjeta */
+/* Caras de la tarjeta */
     .tarjeta-front,
     .tarjeta-back {
       background-size: cover;
