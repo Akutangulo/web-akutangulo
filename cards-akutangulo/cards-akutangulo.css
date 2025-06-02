@@ -51,6 +51,7 @@
       --shown: 1;
       opacity: 1;
     }
+
     /* Tipos específicos de tarjetas */
     .tarjeta-fotografia {
       width: calc(25% - 2rem);
