@@ -54,3 +54,7 @@
       width: calc(25% - 2rem);
       height: 300px;
     }
+    .tarjeta-web {
+      width: calc(50% - 2rem);
+      height: 350px;
+    }
