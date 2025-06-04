@@ -102,3 +102,8 @@ body {
       background: var(--gradiente-fotografia);
       border-radius: 10px;
     }
+.tarjeta-web .tarjeta-back {
+      background: var(--gradiente-web);
+      border-radius: 18px;
+      border: 8px solid #ac0404;
+    }
