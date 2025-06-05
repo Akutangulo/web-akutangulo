@@ -107,3 +107,6 @@ body {
       border-radius: 18px;
       border: 8px solid #ac0404;
     }
+    .tarjeta-web .tarjeta-front {
+      border-radius: 10px;
+    }
