@@ -110,3 +110,7 @@ body {
     .tarjeta-web .tarjeta-front {
       border-radius: 10px;
     }
+    .tarjeta-back {
+      transform: rotateY(180deg);
+      transform-style: preserve-3d;
+    }
