@@ -114,3 +114,7 @@ body {
       transform: rotateY(180deg);
       transform-style: preserve-3d;
     }
+    /* Efectos hover */
+    .tarjeta:hover .tarjeta-back {
+      transform: rotateY(0deg);
+    }
