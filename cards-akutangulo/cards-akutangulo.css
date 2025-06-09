@@ -118,3 +118,6 @@ body {
     .tarjeta:hover .tarjeta-back {
       transform: rotateY(0deg);
     }
+ .tarjeta:hover .tarjeta-front {
+      transform: rotateY(-180deg);
+    }
