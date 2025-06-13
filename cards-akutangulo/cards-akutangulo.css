@@ -97,6 +97,7 @@ body {
       z-index: 1;
       border-radius: inherit;
     }
+
 /* Variantes específicas */
     .tarjeta-fotografia .tarjeta-back {
       background: var(--gradiente-fotografia);
