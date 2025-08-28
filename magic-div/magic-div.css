@@ -9,3 +9,7 @@
 /**************************************************
  * Estilos de los DIV Mágicos para Akutangulo.com *
  **************************************************/
+/* Contenedor general de los bloques */
+.contenedor-magic-akutangulo {
+  margin: 0 auto;
+}
