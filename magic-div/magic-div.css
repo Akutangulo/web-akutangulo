@@ -13,3 +13,13 @@
 .contenedor-magic-akutangulo {
   margin: 0 auto;
 }
+/* Cada bloque (pareja de divs: texto e imagen) */
+.bloque-magic {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column; /* El h2 estará encima del contenido */
+  background: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: var(--color-akutangulo) solid 0px;
+  border-radius: 10px;
+}
