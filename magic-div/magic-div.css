@@ -23,3 +23,8 @@
   border: var(--color-akutangulo) solid 0px;
   border-radius: 10px;
 }
+/* Contenedor para el texto y la imagen */
+.contenido-bloque-magic {
+  display: flex;
+  align-items: stretch; /* Ambos div se ajustan a la misma altura */
+}
