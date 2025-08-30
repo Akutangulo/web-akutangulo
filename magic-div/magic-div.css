@@ -28,3 +28,9 @@
   display: flex;
   align-items: stretch; /* Ambos div se ajustan a la misma altura */
 }
+/* Estilos base para los div de texto e imagen */
+.contenido-bloque-magic  .texto-magic-akutangulo,
+.contenido-bloque-magic  .imagen-magic-akutangulo,
+.contenido-bloque-magic  .iframe-magic-akutangulo {
+  padding: 1rem;
+}
