@@ -47,3 +47,11 @@
 /*********************************************************
  * Estilos para listas dentro de .texto-magic-akutangulo *
  *********************************************************/
+/* -------------------------------
+   Para listas desordenadas (UL)
+   ------------------------------- */
+   .texto-magic-akutangulo ul {
+    list-style: none; /* Se eliminan las viñetas predeterminadas */
+    margin: 0;
+    padding: 0;
+  }
