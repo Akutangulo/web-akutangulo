@@ -47,17 +47,27 @@
 /*********************************************************
  * Estilos para listas dentro de .texto-magic-akutangulo *
  *********************************************************/
-/* -------------------------------
-   Para listas desordenadas (UL)
-   ------------------------------- */
+/* Para listas desordenadas (UL) */
    .texto-magic-akutangulo ul {
     list-style: none; /* Se eliminan las viñetas predeterminadas */
     margin: 0;
     padding: 0;
   }
-.texto-magic-akutangulo ul li {
+  
+  .texto-magic-akutangulo ul li {
     position: relative;
     margin-bottom: 1em;
     padding-left: 1.5em; /* Espacio reservado para el símbolo personalizado */
     text-align: left;
+  }
+/* Viñeta personalizada para UL */
+  .texto-magic-akutangulo ul li::before {
+    content: "◍"; /* Símbolo que se usará como viñeta */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--color-akutangulo);
+    -webkit-text-stroke: 1px white;
+    animation: neon-border 5s ease-in-out infinite;
+    font-size: 0.8rem;
   }
