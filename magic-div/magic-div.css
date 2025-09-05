@@ -34,3 +34,12 @@
 .contenido-bloque-magic  .iframe-magic-akutangulo {
   padding: 1rem;
 }
+/* Bloque de texto: ancho fijo para longitud de línea óptima */
+.contenido-bloque-magic  .texto-magic-akutangulo {
+  flex-basis: 40%;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  overflow-wrap: break-word;
+  color: var(--color-texto);
+}
