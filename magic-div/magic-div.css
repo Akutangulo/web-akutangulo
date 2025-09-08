@@ -71,3 +71,11 @@
     animation: neon-border 5s ease-in-out infinite;
     font-size: 0.8rem;
   }
+
+/* Para listas ordenadas (OL) */
+  .texto-magic-akutangulo ol {
+    list-style: none; /* Se elimina el estilo predeterminado para poder personalizar */
+    margin: 0;
+    padding: 0;
+    counter-reset: li-counter; /* Reinicia el contador para los LI */
+  }
