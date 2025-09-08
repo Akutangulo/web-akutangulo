@@ -79,3 +79,10 @@
     padding: 0;
     counter-reset: li-counter; /* Reinicia el contador para los LI */
   }
+.texto-magic-akutangulo ol li {
+    position: relative;
+    margin-bottom: 1em;
+    padding-left: 1.5em; /* Reserva espacio para el número */
+    text-align: left;
+    counter-increment: li-counter; /* Incrementa el contador en cada LI */
+  }
