@@ -86,3 +86,16 @@
     text-align: left;
     counter-increment: li-counter; /* Incrementa el contador en cada LI */
   }
+/* Muestra el número usando el contador */
+  .texto-magic-akutangulo ol li::before {
+    content: counter(li-counter) ".";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    color: var(--color-akutangulo);
+    -webkit-text-stroke: 1px white; 
+    animation: neon-border 5s ease-in-out infinite;
+    font-size: 1rem;
+    font-weight: bold;
+    /* Puedes agregar animación o estilos adicionales si lo deseas */
+  }
