@@ -105,3 +105,11 @@
             animation: neon-border 5s ease-in-out infinite;
   font-size: 1.6em;        
 }
+/* Bloque de imagen: ocupa el espacio restante */
+.contenido-bloque-magic  .imagen-magic-akutangulo {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  min-height: 0;
+  align-self: stretch; 
+}
