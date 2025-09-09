@@ -113,3 +113,11 @@
   min-height: 0;
   align-self: stretch; 
 }
+/* Bloque de iframe: igual que la imagen */
+.contenido-bloque-magic  .iframe-magic-akutangulo {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  min-height: 0;
+  align-self: stretch; 
+}
