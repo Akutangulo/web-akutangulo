@@ -99,3 +99,9 @@
     font-weight: bold;
     /* Puedes agregar animación o estilos adicionales si lo deseas */
   }
+.texto-magic-akutangulo i{
+  color: var(--color-akutangulo);
+            -webkit-text-stroke: 1px white; 
+            animation: neon-border 5s ease-in-out infinite;
+  font-size: 1.6em;        
+}
