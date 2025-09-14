@@ -121,3 +121,7 @@
   min-height: 0;
   align-self: stretch; 
 }
+/* Separación extra entre texto e imagen en escritorio */
+.contenido-bloque-magic.bloque-normal-magic .imagen-magic-akutangulo {
+  margin-left: 2rem;
+}
